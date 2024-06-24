@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ border-bottom: 1px solid #b6b1b1;
+}
+header .logo{
+    margin-left: 4%;
+}
+header .myntralogo{
+    height: 45px;
+}
+header .nav-action{
+    margin-right: 4%;
+}
+header .nav-content a{
+    color: #232C3F;
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+text-decoration: none;
+padding: 28px 0;
+border-bottom: 5px solid white;
+}
+header .nav-content a:hover{
+    border-bottom: 5px solid #f54e77;
+}
+header .nav-content{
+  min-width: 500px;
+  min-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-content a sup{
+    color: #ff3f6c;
+    font-weight: 600;
+    font-size: 10px;
+}
+header .nav-search{
+    color: #696e79;
+    display: flex;
+    align-items: center;
+    height: 40px;
+   min-width: 200px;
+    width: 30%;
+}
+.nav-search .icon{
+    box-sizing: content-box;
+    background-color:#F5F5F6;
+    font-weight: 300;
+    height: 20px;
+    padding: 10px;
+    border-radius: 4px 0px 0px 4px;
+}
+header .nav-search .search-bar{
+    background-color:#F5F5F6;
+    border: 0;
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 0px 4px 4px 0px;
+}
+header .nav-action{
+    min-width: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-container .action-name{
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+.action-container{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+/* main section */
+main .banner-container{
+    margin: 40px 0;
+
+}
+main .banner{
+    width: 100%;
+}
+main .category-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+main .category-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+main .category-items .sale-item{
+    width:250px;
+}
+@media screen and (min-width:750px){
+    .sale-item{
+        width: 150px;
+    }
+}
+/* footer section*/
+footer{
+    padding: 30px 0 40px 0;
+}
+footer .footer-container{
+    background-color: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-container .footer-container-part{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container-part .footer-logo{
+    width: 282px;
+    height: 46px;
+}
+.footer-heading{
+    color: #282C3F;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 26px 0px;
+}
+.footer-container-part .footer-item{
+    color: #696b79;
+    font-size: 15px;
+    padding: 0 0 5px;
+}
+.footer-container-part .fa-brands{
+padding-right: 10px;
+color: #282c3f;
+font-size: 20px;
+height: 20px;
+}
+.footer-container-part .footer-guarenteelogo{
+    filter: hue-rotate(180deg) opacity(0.7);
+    width: 48px;
+}
+.footerlogo{
+    display: flex;
+    margin: 26px 0px;
+}
+.promisesdark{
+    color: #282c3f;
+    font-weight: 700;
+}
+
+.footer-container-part .promises-logo2{
+    padding-left: 10px;
+    color: #696b79;
+width: 230px;
+height: 50px;
+text-wrap: pretty;
+}
+.popular-searches .footer-heading{
+    display: flex;
+    max-width: 90%;
+}
+.popular-searches .footer-heading p{
+    width:150px;
+}
+.popular-searches .footer-heading .line{
+    margin-top: 8px;
+    width:100em;
+height: 1px;
+background-color: #b6b1b1;
+}
+.popular-searches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular-searches .searches-content{
+    max-width: 90%;
+    text-wrap: pretty;
+    color: #696e79;
+}
+.cpyright{
+    color: #696e79;
+    max-width: 90%;
+    display: flex;
+  justify-content: space-between;
+  margin: 40px auto 30px auto;
+}
+.cpyright p a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #526cd0;
+}
+.end-line{
+    height: 1px;
+    max-width: 90%;
+    margin: auto;
+    color: #b6b1b1;
+}
+
