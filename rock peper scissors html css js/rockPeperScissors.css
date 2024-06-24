@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+header{
+    background-color: #187498;
+    height: 5.5rem;
+    text-align: center;
+    line-height: 5.5rem;
+}
+header .gamename{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+.img img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+img:hover{
+    border: 4px solid black;
+    opacity: 0.6;
+
+}
+ #user-score , #comp-score{
+    width: 3.5rem;
+    height: 3.5rem;
+font-size: 3rem;
+text-align: center;
+background-color: #F9D923;
+color: white;
+border-radius: 0.5rem;
+margin-bottom: 1rem;
+}
+.you , .comp{
+    font-size: 1.5rem;
+    color: #187498;
+    font-weight: 600;
+}
+.score-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.score-box1,.score-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notice,button{
+    border: none;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    background-color: #187498;
+    color: white;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+button{
+    display: flex;
+    justify-content: center;
+}
