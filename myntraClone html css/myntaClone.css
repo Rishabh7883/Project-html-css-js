@@ -10,7 +10,9 @@ header{
     height: 80px;
     background-color: #FFFFFF;
     display: flex;
- justify-content: space-evenly;
+ justify-content: space-between;
+ margin-left: 1.5rem;
+ margin-right: 1.5rem;
  align-items: center;
  border-bottom: 1px solid #b6b1b1;
 }
@@ -52,7 +54,9 @@ header .nav-search{
     align-items: center;
     height: 40px;
    min-width: 200px;
-    width: 30%;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .nav-search .icon{
     box-sizing: content-box;
@@ -213,4 +217,22 @@ background-color: #b6b1b1;
     margin: auto;
     color: #b6b1b1;
 }
-
+.menubar i{
+ font-size: 1.2rem;
+}
+@media screen and (min-width:1007px) {
+    .menubar,.cross{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:1007px) {
+    .nav-content{
+        display: none !important;
+    }
+}
+@media screen and (max-width:574px) {
+    .nav-action{
+        display: none !important;
+    }
+}
