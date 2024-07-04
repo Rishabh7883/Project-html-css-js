@@ -114,12 +114,7 @@ main .category-items{
 
 }
 main .category-items .sale-item{
-    width:250px;
-}
-@media screen and (min-width:750px){
-    .sale-item{
-        width: 150px;
-    }
+    width:13rem;
 }
 /* footer section*/
 footer{

@@ -127,6 +127,46 @@ border: 0.7rem solid white;
  width: 30rem;
  box-shadow: 0 0 1rem #fff,inset 0 0 1rem #fff,0 0 2rem #3877FF,inset 0 0 2rem #3877FF,0 0 4rem #3877FF,inset 0 0 4rem #3877FF;
 }
+@media screen and (max-width:1200px){
+    .circle:nth-child(2){
+        width: 25rem;
+    }
+    .circle:nth-child(1){
+    width: 30rem;
+    }
+}
+@media screen and (max-width:1100px) {
+    .circle:nth-child(2){
+        width: 20rem;
+    }
+    .circle:nth-child(1){
+    width: 25rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .circle:nth-child(2){
+        width: 15rem;
+    }
+    .circle:nth-child(1){
+        width: 20rem;
+        }
+}
+@media screen and (max-width:700px) {
+    .circle:nth-child(2){
+        width: 10rem;
+    }
+    .circle:nth-child(1){
+        width: 15rem;
+        }
+}
+@media screen and (max-width:500px) {
+    .circle:nth-child(2){
+        width: 7rem;
+    }
+    .circle:nth-child(1){
+        width: 10rem;
+        }
+}
 .navlist li a::after ,.navlist .active::after{
     content: "";
     position: absolute;
