@@ -42,6 +42,7 @@
     height: 2rem;
     padding-left: 1rem;
     border: none;
+    outline: none;
     border-radius: 1rem;
 }
 .icon{
@@ -54,6 +55,10 @@
     justify-content: center;
     color: rgb(94, 93, 93);
     font-size: .9rem;
+}
+.icon:hover{
+    background-color: rgb(35, 34, 34);
+    color: white;
 }
 .wheather-img img{
     width: 8rem;
