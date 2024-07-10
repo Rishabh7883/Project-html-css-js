@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+.main-container{
+    background-color: rgb(23, 22, 22);
+    width: 100vw;
+    height: 100vh;
+ display: flex;
+ justify-content: center; 
+ align-items: center;  
+}
+.container{
+    background: linear-gradient(to bottom right , rgb(15, 195, 81) ,rgb(147, 127, 195));
+    width: 20rem;
+    height: 15rem;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+.setinjs{
+    height: 25rem;
+    transition: all .5s ease-in;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.search input{
+    width:15rem;
+    height: 2rem;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(94, 93, 93);
+    font-size: .9rem;
+}
+.wheather-img img{
+    width: 8rem;
+}
+.temp{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 700;
+}
+.cityname{
+    color: rgb(63, 61, 61);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.humi-wind{
+    margin-top: 1rem;
+    display: flex;
+      align-items: center;
+      gap: 2rem;
+}
+.humidity,.wind-speed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.humi-wind i{
+    font-size: 1.3rem;
+}
+.humi-val,.wind-val{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+@media screen and (min-width:700px) {
+   body{
+    
+   } 
+}
