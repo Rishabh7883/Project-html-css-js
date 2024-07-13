@@ -48,5 +48,3 @@ else {
   windspeed.innerText="0 Km/h";
 }
 });
-
-

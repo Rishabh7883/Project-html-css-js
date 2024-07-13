@@ -17,11 +17,11 @@ button.addEventListener("click",()=>{
         div.append(icon);
         listcontainer.append(div);
         input.value="";
+        storedata();
   }
 });
 listcontainer.addEventListener("click",(e)=>{
   let litag=e.target.parentElement.querySelector("li");
-  console.log(e.target);
   if(e.target.tagName==="IMG" && e.target.className ==="unchecked"){
        e.target.src="checked.png";
        litag.classList.add("checked");
@@ -36,10 +36,16 @@ listcontainer.addEventListener("click",(e)=>{
   if(e.target.tagName==="I"){
     e.target.parentElement.style.display="none";
   }
+  storedata();
 })
 
-
-
+const storedata=()=>{
+  localStorage.setItem("data",listcontainer.innerHTML);
+}
+const showdata=()=>{
+  listcontainer.innerHTML=localStorage.getItem("data");
+}
+showdata();
 
 
 
