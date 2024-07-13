@@ -10,7 +10,6 @@ const humidity=document.querySelector(".humi-val");
 const windspeed=document.querySelector(".wind-val");
 const container=document.querySelector(".container");
 searchbutton.addEventListener("click", async () => {
-    
     let cityval=inputval.value;
     let fullUrl = `${url+cityval}&appid=${appid}`;
     let response = await fetch(fullUrl);
